@@ -6,21 +6,29 @@
     <title>Home</title>
     <style>
         body {
+            height:100vh;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
         .container {
+            min-width: 500px;
+            min-height: 200px;
             display: grid;
             gap: 15px;
+
+        }
+
+        .container p {
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Hi to my very first nodeJs App..</h1>
-        <p>This is just a basic informational website</p>
+        <h1>Hi there, this is my very first nodeJs App..</h1>
+        <p>This is just a basic informational website.<br>Try navigating to about and contact-me pages or any wrong url to see the 404 not found page.</p>
     </div>
 </body>
 </html>
