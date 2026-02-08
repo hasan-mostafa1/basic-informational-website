@@ -1,0 +1,24 @@
+{
+  "name": "basic-informational-website",
+  "version": "1.0.0",
+  "description": "A very basic informational site, contains 4 pages: index, about, contact-me and 404.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasan-mostafa1/basic-informational-website.git"
+  },
+  "keywords": [],
+  "author": "hasan_mostafa <hasanalimostafa1@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hasan-mostafa1/basic-informational-website/issues"
+  },
+  "homepage": "https://github.com/hasan-mostafa1/basic-informational-website#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
